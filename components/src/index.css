@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+ 
+}
+.card{
+  padding: 1vw;
+  background-color: pink;
+  color: black;
+  margin: 1vw;
+} 
+
+.NavBar{
+  padding: 1vw;
+  background-color: aqua;
+  color: black;
+  margin: 1vw;
+}
