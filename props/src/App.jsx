@@ -8,6 +8,11 @@ function App(){
   <Card user="mani" img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
   <Card user="arya" img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
   <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
+  <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
+  <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
+  <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
+  <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
+  <Card img="https://images.unsplash.com/photo-1516048574519-4ec74b0217be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTExMzk3fHxlbnwwfHx8fHw%3D"/>
 </>
 
   )
