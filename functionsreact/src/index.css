@@ -10,3 +10,19 @@ input{
   background-color: black;
   color: white;
 }
+
+div{
+  /* background-color: aqua; */
+  height: 100vh;
+  margin: 20px;
+ 
+}
+.d1{
+  background-color:blueviolet;
+}
+.d2{
+  background-color: bisque;
+}
+.d3{
+  background-color: blue;
+}

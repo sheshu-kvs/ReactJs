@@ -10,11 +10,20 @@ function App(){
     }} placeholder="Enter The Name" /> */}
     {/* Synthetic Base Event */}
     
-    <input type="text" onChange={function (ele){
+    {/* <input type="text" onChange={function (ele){
       // console.log(ele)
       // if write the target in the console it will display the which item for the example input tag..
-            console.log(ele.target)
-    }} placeholder="Enter The Name" />
+            console.log(ele)
+    }} placeholder="Enter The Name" /> */}
+
+    <div className="d1"
+    onMouseMove={function(){
+      console.log("box1 data to printed..");
+    }} >Page 1</div>
+    <div onWheel={function(ele){
+      console.log("Speed of the wheel",ele.deltaY);
+    }} className="d2">Page 2</div>
+    <div className="d3">Page 3</div>
    </>
   )
 }

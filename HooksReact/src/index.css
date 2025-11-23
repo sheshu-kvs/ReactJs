@@ -1,0 +1,26 @@
+button{
+  padding: 30px 40px;
+  font-family:cursive;
+  font-size: large;
+  background-color: bisque;
+  color: black;
+  margin: 10px;
+}
+
+
+
+.box{
+  background-color: aqua;
+  margin: 200px auto;
+  padding: 100px;
+  width: 50vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+h1{
+  display: block;
+  margin-top: 20px;
+  
+}
