@@ -5,22 +5,31 @@ button{
   background-color: bisque;
   color: black;
   margin: 10px;
+   border-radius: 20px;
+   border-bottom: 8px solid black;
+   cursor: pointer;
 }
 
 
 
 .box{
-  background-color: aqua;
-  margin: 200px auto;
-  padding: 100px;
-  width: 50vw;
-  display: flex;
+  cursor: pointer;
+    border-radius: 20px;
+  background-color:cadetblue;
+  margin: 150px auto;
+  padding: 30px;
+  width: 45vw;
+  display: block;
   justify-content:center;
   align-items: center;
 }
-
-h1{
-  display: block;
-  margin-top: 20px;
-  
+ 
+.box  h1{
+  background-color: rgb(193, 223, 224);
+  color: black;
+  width: 200px;
+  text-align: center;
+  padding: 30px 10px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
