@@ -8,7 +8,7 @@ function Formhandling(){
     return(
           <>
           <form onSubmit={getdata} >
-              <input type="text" placeholder="Enter the Name" />
+          <input type="text" placeholder="Enter the Name" />
           <button >Save</button>
           </form>
         
