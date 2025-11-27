@@ -1,11 +1,14 @@
 #root{
+  box-sizing: border-box;
   /* height: 100vh; */
   min-height: 100px;
-  width: 98vw;
+  width: 97vw;
   background-color: #dadada;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+/* padding: 20px 30px; */
   gap: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
