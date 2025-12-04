@@ -22,7 +22,7 @@ function App() {
       return (
         <div className="h-60" key={idx}>
           <a href={elem.url}>
-            <img className="h-full w-full object-cover  rounded-2xl  " src={elem.download_url} alt="" />
+            <img className="h-full w-full object-cover  rounded-2xl" loading="eager" src={elem.download_url} alt="" />
             <h2 className="text-white text-2xl ">{elem.author}</h2>
           </a>
 
