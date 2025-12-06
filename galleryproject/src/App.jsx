@@ -38,8 +38,8 @@ function App() {
 
 
   return (<>
-    <div className="h-full ">
-      < div className="bg-black  h-full p-5">
+    <div className="h-full">
+      < div className="bg-black  h-screen p-5">
         {/* <h2 className="text- fixed bg-amber-600  w-4 p-1">{index}</h2> */}
         <div className="grid grid-col-1 lg:grid-cols-4 sm:grid-cols-2 gap-8">
           {printUserData}
