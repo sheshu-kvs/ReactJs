@@ -9,7 +9,11 @@ function App() {
   const [index, setIndex] = useState(1);
 
   async function getData() {
+<<<<<<< HEAD
     let resp = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=5`);
+=======
+    let resp = await axios.get(``);
+>>>>>>> 87e6cd9 (Fresh Reactjs)
     console.log(resp.data);
     setUserData(resp.data);
   }
