@@ -39,14 +39,14 @@ function App(){
     setTask(copyTask)
   }
   return(
-    <>
+    <div className="">
     <div className="bg-black h-screen lg:flex  ">
        <form onSubmit={(e)=>{ 
         getData(e)
         }
         }  className="flex flex-col lg:w-1/2 gap-5  py-5 px-3 ">
        <h2 className=" text-white text-center text-4xl ">Add a Note</h2>
-      <input className="rounded text-white border-3 px-5 py-7 font-medium text-2xl border-b-blue-50 outline-none " type="text"  placeholder="Enter The Name"
+      <input className="rounded text-white border-3 px-5 py-7  font-medium text-2xl border-b-blue-50 outline-none " type="text"  placeholder="Enter The Name"
       value={title} onChange={(e)=>{
         // console.log(e.target.value)
         setTitle(e.target.value)
@@ -81,7 +81,7 @@ function App(){
     </div>
     </div>
     
-    </>
+    </div>
   )
 }
 
