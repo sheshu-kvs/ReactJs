@@ -3,8 +3,8 @@ import pause from '../../assets/pause_icon.png';
 import play from '../../assets/play_icon.png';
 
 
-function Hero({heroData,HeroCount, playStatus, SetPlayStatus,SetHeroCount}){
-    return <div className='absolute top-30 z-50   text-white'>
+function Hero({heroData, heroCount, playStatus, SetPlayStatus,SetHeroCount}){
+    return <div className='absolute top-20 z-50   text-white '>
         <div className='mt-36 font-medium text-7xl'>
             <p>{heroData.text1}</p>
             <p>{heroData.text2}</p>
@@ -17,17 +17,18 @@ function Hero({heroData,HeroCount, playStatus, SetPlayStatus,SetHeroCount}){
             <ul className='text-white mt-48 '>
                 <li  onClick={()=>
                     SetHeroCount(0)
-                } className={HeroCount===0?"hero-dot-orange":"hero-dot"}></li>
+                } className={ heroCount===0?"hero-dot-orange":"hero-dot"}></li>
                 <li  onClick={()=>
                     SetHeroCount(1)
-                }  className={HeroCount===1?"hero-dot-orange":"hero-dot"}></li>
+                }  className={ heroCount===1?"hero-dot-orange":"hero-dot"}></li>
                 <li  onClick={()=>
                     SetHeroCount(2)
-                }  className={HeroCount===2?"hero-dot-orange":"hero-dot"}></li>
+                }  className={ heroCount===2?"hero-dot-orange":"hero-dot"}></li>
             </ul>
-             <div className='fixed bottom-8 right-8'>
+             <div className='fixed bottom-52 right-8 
+             md:bottom-12 md:right-8'>
                 <p>See the Video</p>
-                <img  onClick={()=>
+                <img className='w-10 h-10 md:w-14 md:h-14 cursor-pointer'  onClick={()=>
                    SetPlayStatus(!playStatus)} src={playStatus?pause:play}
                 alt="" />
                 

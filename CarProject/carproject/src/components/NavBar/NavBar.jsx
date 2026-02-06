@@ -1,8 +1,8 @@
 function NavBar() {
     return <div className="absolute top-10 left-0 right-0 z-10 bottom-0 text-white ">
         <div className="flex justify-between items-center px-6">
-            <div className="text-3xl">Ev-Olution</div>
-            <ul className="flex gap-10 items-center cursor-pointer">
+            <div className="text-4xl bg-white text-black rounded-xl px-3 py-2">Ev-Olution</div>
+            <ul className="flex gap-10 items-center cursor-pointer text-2xl">
                 <li className="list-none">Home</li>
                 <li className="list-none">About</li>
                 <li className="list-none"> Explore</li>

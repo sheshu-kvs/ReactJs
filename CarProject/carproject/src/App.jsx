@@ -13,7 +13,7 @@ function App(){
   const[heroCount,SetHeroCount]=useState(0);
   const[playStatus,SetPlayStatus]=useState(false);
   return <>
-    <Background heroCount={heroCount} playStatus={playStatus}/>
+    <Background  heroCount={heroCount} playStatus={playStatus}/>
     <NavBar />
     <Hero
     heroData ={heroData[heroCount]}
