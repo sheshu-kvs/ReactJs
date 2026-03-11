@@ -1,6 +1,6 @@
 function Section2(){
     return (
-        <div className="bg-amber-700  h-screen">Section 2</div>
+        <div className="bg-amber-700  h-screen">Section</div>
     )
 }
 
